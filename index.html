@@ -1,9 +1,0 @@
-{% extends "base.html" %}
-{% block content %}
-    <h1>Restaurants</h1>
-    <ul>
-        {% for name in restaurants %}
-            <li><a href="/menu/{{ name }}">{{ name }}</a></li>
-        {% endfor %}
-    </ul>
-{% endblock %}
