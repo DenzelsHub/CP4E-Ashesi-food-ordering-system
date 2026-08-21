@@ -1,5 +1,5 @@
-from food_model import Restaurant, MainDish, Beverage, Snack
-from nutrition_lookup import get_nutrition_for_dish
+from testing 5 import Restaurant, MainDish, Beverage, Snack
+from nutrition import get_nutrition_for_dish
 from order_model import Order
 
 
