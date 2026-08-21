@@ -1,7 +1,7 @@
 import requests
 
 # Get your key here: https://fdc.nal.usda.gov/api-key-signup
-API_KEY = "PASTE_YOUR_KEY_HERE"
+API_KEY = "Kn5el104QquB0RzLdFl8LkrOhCxlJ6MLSCJKyoQk"
 BASE_URL = "https://api.nal.usda.gov/fdc/v1/foods/search"
 
 # USDA doesn't have Ghanaian dish names, so we map each dish to a
