@@ -21,16 +21,16 @@ def build_sample_restaurants():
     akornor.add_item(Snack("Meat Pie", 6.00))
     restaurants[akornor.get_name()] = akornor
 
-    cafeteria = Restaurant("Ashesi Cafeteria", "Main Campus")
-    cafeteria.add_item(MainDish("Red Red", 22.00))
-    cafeteria.add_item(MainDish("Kenkey and Fish", 28.00))
-    cafeteria.add_item(MainDish("Jollof", 28.00))
-    cafeteria.add_item(MainDish("Fried rice", 28.00))
-    cafeteria.add_item(MainDish("Grilled chicken ", 28.00))
+    Hallmark = Restaurant("Hallmark", "Main Campus")
+    Hallmark.add_item(MainDish("Red Red", 22.00))
+    Hallmark.add_item(MainDish("Kenkey and Fish", 28.00))
+    Halllmark.add_item(MainDish("Jollof", 28.00))
+    Hallmark.add_item(MainDish("Fried rice", 28.00))
+    Hallmark.add_item(MainDish("Grilled chicken ", 28.00))
     
-    cafeteria.add_item(Beverage("Bissap", 8.00))
-    cafeteria.add_item(Snack("Kelewele", 10.00))
-    restaurants[cafeteria.get_name()] = cafeteria
+    Hallmark.add_item(Beverage("Bissap", 8.00))
+    Hallmark.add_item(Snack("Kelewele", 10.00))
+    restaurants[Hallmark.get_name()] = Halllmark
 
     return restaurants
 
