@@ -24,9 +24,9 @@ def build_sample_restaurants():
     cafeteria = Restaurant("Ashesi Cafeteria", "Main Campus")
     cafeteria.add_item(MainDish("Red Red", 22.00))
     cafeteria.add_item(MainDish("Kenkey and Fish", 28.00))
-    cafeteria.add_item(MainDish("Kenkey and Fish", 28.00))
-    cafeteria.add_item(MainDish("Kenkey and Fish", 28.00))
-    cafeteria.add_item(MainDish("Kenkey and Fish", 28.00))
+    cafeteria.add_item(MainDish("Jollof", 28.00))
+    cafeteria.add_item(MainDish("Fried rice", 28.00))
+    cafeteria.add_item(MainDish("Grilled chicken ", 28.00))
     
     cafeteria.add_item(Beverage("Bissap", 8.00))
     cafeteria.add_item(Snack("Kelewele", 10.00))
