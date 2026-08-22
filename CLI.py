@@ -7,16 +7,27 @@ def build_sample_restaurants():
     # placeholder data until this gets replaced with real data from the group
     restaurants = {}
 
-    akornor = Restaurant("Akornor Kitchen", "Ashesi Campus")
-    akornor.add_item(MainDish("Jollof Rice", 25.00))
-    akornor.add_item(MainDish("Waakye", 20.00))
+    akornor = Restaurant("Akornor", "Ashesi Campus")
+    akornor.add_item(MainDish("Jollof Rice", 30.00))
+    akornor.add_item(MainDish("Waakye", 35.00))
+    akornor.add_item(MainDish("Plain Rice", 20.00))
+    akornor.add_item(MainDish("Fried Rice", 20.00))
+    akornor.add_item(MainDish("Indomie", 20.00))
     akornor.add_item(Beverage("Water", 3.00))
+    akornor.add_item(Beverage("Fanta", 7.00))
+    akornor.add_item(Beverage("Coke", 7.00))
+    akornor.add_item(Beverage("Sprite", 7.00))
+    akornor.add_item(Beverage("bb Cocktail", 15.00))
     akornor.add_item(Snack("Meat Pie", 6.00))
     restaurants[akornor.get_name()] = akornor
 
     cafeteria = Restaurant("Ashesi Cafeteria", "Main Campus")
     cafeteria.add_item(MainDish("Red Red", 22.00))
     cafeteria.add_item(MainDish("Kenkey and Fish", 28.00))
+    cafeteria.add_item(MainDish("Kenkey and Fish", 28.00))
+    cafeteria.add_item(MainDish("Kenkey and Fish", 28.00))
+    cafeteria.add_item(MainDish("Kenkey and Fish", 28.00))
+    
     cafeteria.add_item(Beverage("Bissap", 8.00))
     cafeteria.add_item(Snack("Kelewele", 10.00))
     restaurants[cafeteria.get_name()] = cafeteria
